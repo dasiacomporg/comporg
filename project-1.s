@@ -1,14 +1,11 @@
-#comporg 
+#output name and id 
 
 .data
       
-
-myAt: .asciiz"@"
-.text
-     
-
+output_at: .asciiz "@ "
+.text ##assembly language instuctions goes in text segment
+main: #start coding
 li $v0, 4
-     
-la $a0, myAt
-     
-syscall
+la $v0, output_string
+syscall # call operating system to perform operation
+
