@@ -38,7 +38,7 @@ sub $a0, 72
 syscall
 sub $a0, 12
 syscall
-add $a0, 36
+add $a0, 58
 syscall
 add $a0, 29
 syscall 
