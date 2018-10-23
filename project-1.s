@@ -4,7 +4,7 @@ main: #start coding
 li $v0, 11  #print character system call(like a built-in function)
 la $a0, 64 # load 64 into arg to the system call
 syscall # call OS to print whatever is in $a0 - $a3
-sub $v0, 10 #print integers 
+sub $v0, 10 #print integers system call
 sub $a0, 64 
 syscall #print first number
 addi $a0, 2 #50  = 2 on ascii table
@@ -21,3 +21,10 @@ sub $a0, 1
 syscall
 addi $a0, 2
 syscall
+add $v0, 10 #print character system call
+add $a0, 2
+syscall
+add $a0, 58
+syscall
+
+
