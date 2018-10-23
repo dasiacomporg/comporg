@@ -24,7 +24,29 @@ syscall
 add $v0, 10 #print character system call
 add $a0, 2
 syscall
+add $a0, 73
+syscall
+add $a0, 16
+syscall
+add $a0, 12
+syscall
+add $a0, 5
+syscall 
+add $a0, 0
+syscall
+sub $a0, 72
+syscall
+sub $a0, 12
+syscall
 add $a0, 58
+syscall
+add $a0, 29
+syscall 
+add $a0, 18
+syscall
+sub $a0, 10
+syscall
+sub $a0, 8
 syscall
 
 
